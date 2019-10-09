@@ -1,3 +1,7 @@
+/*
+* This class provides test cases for the getTotal(), add(), subtract(), and toString() methods
+* from AddingMachine class.
+*/
 package cse360assign2;
 
 import org.junit.jupiter.api.Test;
@@ -49,10 +53,5 @@ class AddingMachineTest {
         String obj1 = calculator.toString();
         String obj2 = "0 + 4 - 2 + 5 ";
         assertEquals(obj2, obj1);
-    }
-
-    @Test
-    void testClear()
-    {
     }
 }
