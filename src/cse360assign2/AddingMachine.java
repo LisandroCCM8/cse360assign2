@@ -23,7 +23,7 @@ public class AddingMachine
             // add initial value, 0, to values list
             add(0);
         }
-    };
+    }
 
 
     // constructor for AddingMachine class
